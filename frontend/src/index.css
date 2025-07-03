@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #090909;
+
+  font-synthesis: none;
+  text-rendering:geometricPrecision;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.size-6{
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+}
+.rotate{
+  rotate: -45deg;
+}
+.box-label{
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(211, 211, 211);
+}
+/* For Firefox */
+* {
+  scrollbar-width: initial;
+  scrollbar-color: #666666 transparent;
+}
+
+/* For Chrome/Safari/Edge */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;  /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #707070;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  * {
+    scrollbar-color: #666666 transparent;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #666666;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #808080;
+  }
+}

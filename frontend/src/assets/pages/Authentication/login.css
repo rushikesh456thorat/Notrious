@@ -1,0 +1,248 @@
+
+.au-back-btn{
+  background-color: transparent;
+  border: 0;
+  border-radius: 10px;
+
+}
+.au-back-btn:visited{
+  color: black;
+ text-decoration:none
+
+}
+.au-back-btn:active{
+ color: black;
+ text-decoration:none
+}
+.au-wrapper {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  font-size: 14px;
+  background-color: white;
+  color: #1e1e2f;
+  
+}
+.reset-pass{
+  background: linear-gradient(
+      to bottom,
+      rgba(130, 100, 220, 0.3) 0%,
+      rgba(90, 70, 180, 0.5) 50%,
+      #101025 100%
+    ),
+    url("../../../../public/bgauth.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.au-reset-password{
+ background-color: white;
+
+  padding: 40px;
+  border-radius: 20px;
+
+}
+.au-reset-password p{
+  color: #6e6e6e;
+  font-size: 16px;
+  margin-top: 0;
+
+}
+.au-reset-password h3{
+
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 0px;
+
+}
+
+.au-wrapper a {
+  color: #6c5ce7;
+}
+
+.au-left,
+.au-right {
+  width: 50%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.au-left {
+  color: #1e1e2f;
+  background-color: #f8f8fe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.au-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+   margin-top: 1rem;
+}
+
+.au-logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 7px;
+}
+
+.au-des {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4b3f91;
+}
+
+.au-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.au-heading h3,
+.au-heading p {
+  margin: 0;
+}
+
+.au-googlebutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #f0ebff;
+  border-radius: 5px;
+  border: 1px solid #c2b7f2;
+  color: #4b3f91;
+  cursor: pointer;
+}
+
+.au-seperator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #777;
+}
+
+.au-seperator hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #bbb;
+}
+
+.au-label-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.au-wrapper input:-webkit-autofill {
+  -webkit-text-fill-color: #333 !important;
+}
+
+.au-wrapper input:-webkit-autofill,
+.au-wrapper input:-webkit-autofill:hover,
+.au-wrapper input:-webkit-autofill:focus,
+.au-wrapper input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #555;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px #dcdcf2;
+}
+
+.au-wrapper input {
+  height: 35px;
+  background: white;
+  border: 1px solid #a59ddf;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #2b2b3d;
+}
+
+.au-label {
+  font-weight: 500;
+  color: #4b3f91;
+}
+
+.au-sendbtn {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c5ce7;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.au-link {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  font-size: 13px;
+  color: #4b3f91;
+}
+
+.au-right {
+  background: linear-gradient(
+      to bottom,
+      rgba(130, 100, 220, 0.3) 0%,
+      rgba(90, 70, 180, 0.5) 50%,
+      #101025 100%
+    ),
+    url("../../../../public/bgauth.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  text-align: center;
+}
+
+.gradient-text {
+  font-size: clamp(20px, 4vw, 32px);
+  font-weight: 700;
+  background: linear-gradient(to bottom, #ffffff, #a080f0);
+  background-clip: text;
+  height: fit-content;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .au-wrapper {
+    flex-direction: column;
+    margin-top: -30px;
+  }
+  .au-title{
+    margin-bottom: 1rem;
+  }
+  .au-right {
+    display: none;
+  }
+  .au-left {
+    width: 100%;
+    height: 100vh;
+    padding: 1.5rem;
+  }
+  .au-main {
+    width: 100%;
+
+  }
+}

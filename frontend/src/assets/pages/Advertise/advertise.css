@@ -1,0 +1,133 @@
+.advertise-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.advertise-content {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.coming-soon h2 {
+  font-size: 2.5rem;
+  color: #e6e6e6;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.coming-soon p {
+  font-size: 1.2rem;
+  color: #b8b8b8;
+  margin-bottom: 2rem;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4cc9f0;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  min-width: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.label {
+  font-size: 0.9rem;
+  color: #b8b8b8;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.notify-btn {
+  background: linear-gradient(135deg, #4cc9f0 0%, #4361ee 100%);
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(76, 201, 240, 0.3);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+}
+
+.notify-btn:hover {
+  background: linear-gradient(135deg, #3aa8d8 0%, #3a56e8 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(76, 201, 240, 0.4);
+}
+
+.notify-btn:active {
+  transform: translateY(0);
+}
+
+/* Animation for attention */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+
+.coming-soon {
+  animation: pulse 3s infinite;
+}
+
+/* Optional: Add some glowing effect for dark theme */
+.countdown-item .number {
+  text-shadow: 0 0 8px rgba(76, 201, 240, 0.5);
+}
+
+/* Add a subtle glow to the container */
+.advertise-container {
+  position: relative;
+}
+
+.advertise-container::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #4cc9f0, #4361ee, #4cc9f0);
+  z-index: -1;
+  border-radius: 12px;
+  opacity: 0.2;
+  animation: animate-border 8s linear infinite;
+  background-size: 400%;
+}
+
+@keyframes animate-border {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}

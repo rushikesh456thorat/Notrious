@@ -1,0 +1,429 @@
+.subscription-content{
+    border-radius: 25px;
+    background-color: black;
+    padding: 10px 30px;
+    padding-bottom: 40px;
+}
+
+.subscription-status{
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.subscription-status span{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.9px;
+    border-radius: 20px;
+    padding: 1px 8px;
+}
+
+.sub-active{
+    color: green;
+    background-color: #212c22;
+}
+
+.sub-inactive{
+    color: #ff0000;
+    background-color: #3a1f1f;
+}
+
+/* Current Subscription Styles */
+.current-subscription {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.current-subscription h4 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.current-plan-card {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border: 2px solid #2440cc;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.current-plan-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.current-plan-info h5 {
+    color: #2440cc;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.current-plan-type {
+    color: #8a8a8a;
+    font-size: 14px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.current-plan-status {
+    text-align: right;
+}
+
+.days-remaining {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(36, 64, 204, 0.2);
+    border-radius: 15px;
+    padding: 10px 15px;
+    border: 1px solid #2440cc;
+}
+
+.days-count {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2440cc;
+    line-height: 1;
+}
+
+.days-label {
+    font-size: 12px;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.subscription-dates {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.date-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.date-label {
+    font-size: 12px;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.date-value {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.current-plan-features h6 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feature-item svg {
+    color: #2440cc;
+    flex-shrink: 0;
+}
+
+.feature-item span {
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+.more-features {
+    font-size: 12px;
+    color: #8a8a8a;
+    font-style: italic;
+    margin: 5px 0 0 25px;
+}
+
+.subscription-head{
+    border-top: 1px solid #2d2d2d;
+    padding-bottom: 30px;
+}
+
+.select-plan-type{
+    padding: 10px 30px;
+    display: flex;
+    gap:20px;
+}
+
+.select-btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #2d2d2d;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.select-btn:hover{
+    background-color: #2440cc;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.selected{
+    color: #2440cc;
+    border: 2px solid #2440cc;
+}
+
+.plan-container{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.plan-item{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #2d2d2d;
+    padding: 20px;
+    border-radius: 25px;
+    position: relative;
+}
+
+/* Current plan styling */
+.plan-item.current-plan {
+    border: 2px solid #2440cc;
+    background: linear-gradient(135deg, rgba(36, 64, 204, 0.1) 0%, rgba(36, 64, 204, 0.05) 100%);
+}
+
+.plan-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 4px dotted #2d2d2d;
+}
+
+.plan-name{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.current-badge {
+    background: #2440cc;
+    color: white;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.plan-pricing{
+    font-size: 18px;
+}
+
+.plan-pricing span{
+    font-size: 16px;
+    color: #6f6f6f;
+}
+
+.plan-content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.feature svg{
+    color: #2440cc;
+}
+
+.choose-feild{
+    display: flex;
+    border-top: 4px dotted #2d2d2d;
+    padding: 20px;
+}
+
+.choose-btn{
+    background-color: #2440cc;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.choose-btn:hover:not(:disabled) {
+    background-color: #1e35a0;
+    transform: translateY(-2px);
+}
+
+.choose-btn:disabled {
+    background-color: #555;
+    color: #999;
+    cursor: not-allowed;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .current-plan-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .current-plan-status {
+        text-align: left;
+    }
+    
+    .subscription-dates {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .days-remaining {
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .days-count {
+        font-size: 20px;
+    }
+}
+
+
+
+
+.success-wrapper {
+  background-color: #0d0d0d;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-card {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.success-icon {
+  font-size: 48px;
+  color: #00d084;
+  margin-bottom: 20px;
+}
+
+.success-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.success-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.success-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+.failed-wrapper {
+  background-color: #0d0d0d;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.failed-card {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.failed-icon {
+  font-size: 48px;
+  color: #ff4d4f;
+  margin-bottom: 20px;
+}
+
+.failed-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.failed-message {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.failed-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.failed-btn:hover {
+  background-color: #0056b3;
+}
