@@ -24,7 +24,7 @@ notrious/
 ├── frontend/
 │   ├── src/
 │   └── .env.demo
-└── .env.demo
+├── .env.demo
 └── README.md
 ```
 
