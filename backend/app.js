@@ -21,7 +21,7 @@ app.use('/api/webhook',webHook)
 app.use(express.json())
 
 app.use(cors({
-    origin: 'https://7f85-2409-40c2-1009-198-a894-2816-622a-c5f8.ngrok-free.app',
+    origin: `${process.env.DOMAIN}`,
     credentials: true
 }));
 

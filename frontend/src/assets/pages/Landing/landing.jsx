@@ -181,10 +181,6 @@ const LandingPage = () => {
                   <span className="logo-text">Amazon</span>
                 </div>
                 <div className="trust-logo">
-                  <div className="logo-box blue"></div>
-                  <span className="logo-text">Flipkart</span>
-                </div>
-                <div className="trust-logo">
                   <div className="logo-box purple">
                     <Icon icon="meta" />
                   </div>
@@ -212,7 +208,7 @@ const LandingPage = () => {
                 step: "01",
                 title: "Paste Product URL",
                 description:
-                  "Simply paste any product URL from Amazon, Flipkart, AliExpress, or any other marketplace. Our AI instantly analyzes the product.",
+                  "Simply paste any product URL from Amazon, AliExpress, or any other marketplace. Our AI instantly analyzes the product.",
                 icon: <Globe className="step-icon" />,
               },
               {
@@ -266,7 +262,7 @@ const LandingPage = () => {
                 icon: <Zap className="feature-icon" />,
                 title: "One-Click Import",
                 description:
-                  "Import products from Amazon, Flipkart, AliExpress, and 50+ other marketplaces instantly.",
+                  "Import products from Amazon, AliExpress, and 50+ other marketplaces instantly.",
               },
               {
                 icon: <Shield className="feature-icon" />,
@@ -513,7 +509,7 @@ const LandingPage = () => {
                 question:
                   "Can I import products from Amazon and other marketplaces?",
                 answer:
-                  "Absolutely! Notrious supports importing products from 50+ marketplaces including Amazon, Flipkart, AliExpress, eBay, Walmart, and many more. Simply paste the product URL and our AI will handle the rest.",
+                  "Absolutely! Notrious supports importing products from 50+ marketplaces including Amazon, AliExpress, eBay, Walmart, and many more. Simply paste the product URL and our AI will handle the rest.",
               },
               {
                 question: "How does the AI optimization work?",
