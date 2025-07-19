@@ -22,7 +22,7 @@ const Accounts = () => {
       setBoxType('connectionGuide');
       
     } else {
-      console.log('connect to meta');
+      toast.info('Oops! sorry this feature is not available.')
     }
   };
 
