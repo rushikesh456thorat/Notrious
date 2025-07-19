@@ -10,7 +10,7 @@ const Success = () => {
         <p className="success-message">
           Thank you for subscribing. Your account has been upgraded and is now active.
         </p>
-        <a className="success-btn" href="/">
+        <a className="success-btn" href="/dashboard">
           Go to Dashboard
         </a>
       </div>

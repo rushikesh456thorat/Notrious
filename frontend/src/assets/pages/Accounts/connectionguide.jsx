@@ -8,28 +8,28 @@ const steps = [
   {
     title: "Go to Shopify Admin",
     description: `Click on "Apps" from the sidebar, then select "App and sales channel settings".`,
-    image: "/conImage/shopify_connect_1.webp",
+    image: "/conImage/Connect_1.png",
   },
   {
     title: "Create App",
     description: `Click "Develop apps" (top-right), then "Create an app". Name it "Page Pilot" and click "Create app".`,
-    image: "/conImage/shopify_connect_2.webp",
+    image: "/conImage/Connect_2.png",
   },
   {
     title: "Configure API Scopes",
     description: `Click "Configure Admin API scopes". Enable:\n- 
 write_products\n-read_products\n write_themes\n read_themes\nwrite_theme_code\n read_channels\nwrite_publications\n read_publications\n read_product_listings\nThen click "Save".`,
-    image: "/conImage/shopify_connect_3.webp",
+    image: "/conImage/Connect_3.png",
   },
   {
     title: "Install the App",
     description: `Click "Install app" (top-right) and confirm the install in the pop-up.`,
-    image: "/conImage/shopify_connect_4.webp",
+    image: "/conImage/Connect_4.png",
   },
   {
     title: "Get Shopify Token",
     description: `Click "Reveal token once". This is your Shopify Key. Copy and save it!\n\n⚠️ You can't view it again.\n⚠️ Don’t delete the app.`,
-    image: "/conImage/shopify_connect_5.webp",
+    image: "/conImage/Connect_5.png",
     isFinal: true,
   },
 ];

@@ -1,6 +1,6 @@
 import { Router } from "express";
 import pageRetrive from "../controllers/pagegenerator/pageretrive.js";
-import protectRoute from "../middleware/protectRoute.js";
+import protectRoute from "../middleware/protectroute.js";
 import { getPagesTableData } from "../controllers/user/usepagecollection.js";
 
 const router = Router()
