@@ -311,7 +311,7 @@ const LandingPage = () => {
           <div className="section-header">
             <h2 className="section-title">What Our Users Say</h2>
             <p className="section-description">
-              Join thousands of successful merchants who've transformed their
+              Join thousands of successful merchants who&apos;ve transformed their
               stores
             </p>
           </div>

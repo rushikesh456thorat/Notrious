@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // src/components/Accounts/connectionguide.jsx
 import { useState } from "react";
 import "./connectionguide.css";
