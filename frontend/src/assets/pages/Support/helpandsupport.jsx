@@ -1,12 +1,11 @@
-import React from 'react';
-import './HelpAndSupport.css';
+import './helpandsupport.css';
 
 const HelpAndSupport = () => {
   return (
     <div className="help-container">
       <h1 className="help-title">Help & Support</h1>
       <p className="help-subtitle">
-        Welcome to  Notrious's Help Center. We're here to support your journey in building high-converting Shopify product pages.
+        Welcome to  Notrious&apos;s Help Center. We&apos;re here to support your journey in building high-converting Shopify product pages.
       </p>
 
       <section className="help-section">
@@ -23,7 +22,7 @@ const HelpAndSupport = () => {
 
       <section className="help-section">
         <h2>📬 Contact Support</h2>
-        <p>If you're stuck, confused, or facing a technical issue, don't hesitate to reach out.</p>
+        <p>If you&apos;re stuck, confused, or facing a technical issue, don&apos;t hesitate to reach out.</p>
         <p>
           📧 Email us at: <a href="mailto:support@ Notrious.com">support@ Notrious.com</a>
         </p>
