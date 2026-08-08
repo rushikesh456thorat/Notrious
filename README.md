@@ -1,10 +1,10 @@
-# 🏍️ Notrious
+# Notrious
 
 **Notrious** is a full-stack web application that helps users generate optimized product pages and ad templates for their Shopify stores and Meta Ads. Designed to streamline e-commerce workflows, it allows automatic product import, ad generation, and publishing — all from a single interface.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 | Frontend                               | Backend              |
 | -------------------------------------- | -------------------- |
@@ -15,7 +15,7 @@
 
 ---
 
-## 🌐 Project Structure
+##  Project Structure
 
 ```
 notrious/
@@ -30,7 +30,7 @@ notrious/
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 
